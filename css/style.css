@@ -91,3 +91,14 @@ ul #secondary-menu li a {
 	width: 960px;
 	margin: 5px auto;
 }
+
+#content {
+
+	width:775px;
+	float:right;
+	padding-left:15px;
+	background-color:#fcddbc;
+}
+
+
+
