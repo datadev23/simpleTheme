@@ -1,0 +1,44 @@
+body {
+	background-color: #B8D8BA;
+}
+
+#page {
+	background-color: #B8D8BA;
+}
+
+#skip-link {
+
+	width:960px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color: #c6c6c6 ;
+}
+
+#header {
+	width:960px;
+	background-color:#D9DBBC;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:10px;
+	height:60px;
+	padding-top:20px;
+	border-top:6px solid #FAE2E4;
+	border-bottom:6px solid #FAE2E4;
+}
+
+#logo 
+{
+	float:left; 
+	margin-left:20px;
+
+}
+
+a#logo {
+	text-decoration:none;
+}
+
+#name-and-slogan {
+	float:left;
+	margin-left: 100px;
+}
+
