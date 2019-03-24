@@ -42,3 +42,52 @@ a#logo {
 	margin-left: 100px;
 }
 
+#site-name a {
+	text-decoration: none;
+}
+
+#navigation {
+	width: 960px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#B8D8BA ;
+}
+
+#navigation  h2 {
+	display:none;
+}
+
+ul #main-menu {
+	text-decoration: none;
+	padding-top: 5px;
+}
+
+ul #main-menu li a {
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+ul #secondary-menu {
+	background-color: #333;
+	height: 25px;
+}
+
+ul #secondary-menu li a {
+	text-decoration: none;
+	color: #fff;
+	padding-right: 10px;
+	height: 25px;
+	border-right: 1px solid #fff;
+}
+
+#main-wrapper {
+	background-color: red;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#main {
+	width: 960px;
+	margin: 5px auto;
+}
