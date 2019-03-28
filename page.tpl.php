@@ -103,7 +103,7 @@
           <?php endif; ?>
         </div> <!-- /#name-and-slogan -->
       <?php endif; ?>
-      <?php if(theme_get_setting('simpletheme_subheading')) : ?><h2><?php print theme_get_setting('simpletheme_subheading');?></h2><?php endif ?>
+      <?php if($simpletheme_subheading) : ?><h2><?php print $simpletheme_subheading;?></h2><?php endif ?>
 
       <?php print render($page['header']); ?>
 
