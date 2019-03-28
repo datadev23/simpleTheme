@@ -30,10 +30,10 @@
 
  function simpletheme_form_system_theme_settings_alter(&$form, &$form_state) {
 
-    $form['bat_subheading'] = array(
+    $form['simpletheme_subheading'] = array(
     '#type' => 'textfield',
     '#title' => t('Sub-heading'),
-    '#default_value' => theme_get_setting('bat_subheading'),
+    '#default_value' => theme_get_setting('simpletheme_subheading'),
     '#description' => t('Displays a sub-heading below the main title. Different from the "slogan" because it will display on every page.'),
     '#weight' => -2,
   );
