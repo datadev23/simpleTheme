@@ -2,3 +2,20 @@ name = Simpletheme
 core = 7.x
 engine = phptemplate 
 stylesheets[all][] = css/style.css 
+style[] = simpletheme.js
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+settings[simpletheme_subheading] = This is a default 
