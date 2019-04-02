@@ -22,6 +22,14 @@ if($variables['node']->type == 'article') {
 	
 }
 
+if($variables['node']->type == 'health_post') {
+	
+	drupal_add_css(drupal_get_path("theme", "simpletheme"). '/css/health.css');
+
+	
+}
+
+
 
 
 }
