@@ -13,7 +13,7 @@ function simpletheme_preprocess_page(&$variables) {
 	
 
 
-
+// show a custom style sheet for a particular content type. 
 
 if($variables['node']->type == 'article') {
 	
@@ -43,6 +43,14 @@ if ($path != $_GET['q']) {
 if ($page_match) {
 
 	drupal_add_css(drupal_get_path("theme", "simpletheme"). '/css/special.css');
+
+}
+
+// add a custom style sheet for the role content editor
+$role = 'content editor';
+if(in_array($role, $variables['user']->roles)) {
+echo "this is found";
+drupal_add_css(drupal_get_path("theme", "simpletheme"). '/css/contenteditor.css');
 
 }
 
