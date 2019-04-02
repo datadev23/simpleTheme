@@ -29,6 +29,22 @@ if($variables['node']->type == 'health_post') {
 	
 }
 
+// now show the css for just node 
+
+$matches = "content/abico-gilvus-quia-validus";
+$path = drupal_get_path_alias($_GET['q']);
+$page_match = drupal_match_path($path, $matches);
+
+if ($path != $_GET['q']) {
+	$page_match = $page_match || drupal_match_path($_GET['q'], $matches);
+
+}
+
+if ($page_match) {
+
+	drupal_add_css(drupal_get_path("theme", "simpletheme"). '/css/special.css');
+
+}
 
 
 
