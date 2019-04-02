@@ -1,7 +1,6 @@
 name = Simpletheme
 core = 7.x
 engine = phptemplate 
-stylesheets[all][] = css/style.css 
 style[] = simpletheme.js
 
 ;;;;;;;;;;;;;;;;;;;;;
@@ -19,3 +18,6 @@ regions[page_bottom]    = 'Page bottom'
 
 
 settings[simpletheme_subheading] = This is a default 
+
+
+features[] = logo
