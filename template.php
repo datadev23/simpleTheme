@@ -49,7 +49,6 @@ if ($page_match) {
 // add a custom style sheet for the role content editor
 $role = 'content editor';
 if(in_array($role, $variables['user']->roles)) {
-echo "this is found";
 drupal_add_css(drupal_get_path("theme", "simpletheme"). '/css/contenteditor.css');
 
 }
