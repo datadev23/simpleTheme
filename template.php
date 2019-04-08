@@ -50,12 +50,26 @@ if ($page_match) {
 // add a custom style sheet for the role content editor
 $role = 'content editor';
 if(in_array($role, $variables['user']->roles)) {
-drupal_add_css(drupal_get_path("theme", "simpletheme"). '/css/contenteditor.css');
+//drupal_add_css(drupal_get_path("theme", "simpletheme"). '/css/contenteditor.css');
 
+}
+
+
+
+
+}
+
+function simpletheme_preprocess_link(&$variables) {
+if(strpos($variables['text'], 'Read more') !== FALSE) {
+	//var_dump($variables);
+$variables['text'] = str_replace('Read more','click', $variables['text']);
+
+if(strpos($variables['text'], 'My account') !== FALSE) {
+	var_dump($variables);
+$variables['text'] = str_replace('My account','<h1>Myadmin</h1>', $variables['text']);
+}
 }
 
 }
 
 
-
-// check to see if its a node based page
