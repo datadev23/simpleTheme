@@ -72,4 +72,18 @@ $variables['text'] = str_replace('My account','<h1>Myadmin</h1>', $variables['te
 
 }
 
+function simpletheme_theme($existing, $type, $theme, $path) {
+
+	$items['custom_donate_form'] = array(
+    'render element' => 'form',
+    'template' => 'donate',
+    'path' => drupal_get_path("theme", "simpletheme"). '/template/form',
+
+	);
+
+	return $items;
+
+
+}
+
 
