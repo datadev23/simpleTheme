@@ -86,26 +86,3 @@ function simpletheme_theme($existing, $type, $theme, $path) {
 
 }
 
-
-function custom_donate_form($form, &$form_state) {
-
-	$form['first_name'] = array(
-    '#type' => 'textfield',
-    '#attributes' => array('placeholder' => t('First Name')),
-	);
-		$form['last_name'] = array(
-    '#type' => 'textfield',
-    '#attributes' => array('placeholder' => t('Last Name')),
-	);
-			$form['address'] = array(
-    '#type' => 'textfield',
-    '#attributes' => array('placeholder' => t('Address')),
-	);
-
-			return $form;
-
-
-
-}
-
-
